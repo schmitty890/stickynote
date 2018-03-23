@@ -27,6 +27,7 @@ class Board extends Component {
 	}
 
 	add(text) {
+		console.log('adding')
 		this.setState(prevState => ({
 			notes: [
 				...prevState.notes,
